@@ -1,0 +1,144 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:31] "[35m[1mGET /search/?s=привет HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:41] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:18:55] "[35m[1mGET /search/?s=носочки HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:19:02] "[35m[1mGET /search/?s=вяжут HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:19:26] "[35m[1mGET /search/?s=*.* HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:19:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:19:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:19:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:21:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:21:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:21:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:21:15] "[35m[1mGET /search/?s= HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:23:43] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:23:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:22] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:22] "GET /uploads/images/1%202.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:29] "[35m[1mGET /search/?s= HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/macbook/PycharmProjects/12HW/hw_12/main/views.py", line 17, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:24:39] "[35m[1mGET /search/?s=открытки HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:28:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:28:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:28:37] "GET /search/?s=открытки HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:28:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:28:37] "[36mGET /uploads/images/1%202.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:33:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:33:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:33:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+ERROR:root:Файл не найден
+INFO:werkzeug:127.0.0.1 - - [27/Sep/2022 11:33:48] "GET /search/?s= HTTP/1.1" 200 -
